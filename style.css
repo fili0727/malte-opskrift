@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
   text-align: center;
-  background-color: darkslategray;
+  background-color: #283739;
 }
 
 /* Define styling for header text */
@@ -20,7 +20,9 @@ p {
   font-size: 16px;
   line-height: 1.5;
   margin: 20px 0;
-  text-align: left;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 a {
@@ -34,4 +36,20 @@ ul {
 
 img {
   text-align: left;
+}
+
+.first-color {
+  background: #283739;
+}
+
+.second-color {
+  background: #2c5d63;
+}
+
+.third-color {
+  background: #a2c11c;
+}
+
+.fourth-color {
+  background: #e0e0e0;
 }
